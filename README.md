@@ -32,7 +32,7 @@ for i in range(N):
         dist[i, j] = math.sqrt(s)
 ```
 
- This approach behaves like looping through lists — high Python overhead, no caching, and no parallelization.
+ This approach behaves like looping through lists: high Python overhead, no caching, and no parallelization.
 
 ---
 
